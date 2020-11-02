@@ -1,6 +1,6 @@
 import axios from "axios"
 const userAccount = axios.create({
-  baseURL: "https://tstcr2020102601-dev-14047.botics.co/rest-auth",
+  baseURL: "https://msm-sgdg021111-dev-14420.botics.co/rest-auth",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
 })
 const mSMsgdgAPI = axios.create({
